@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Remote Trainer</string>
+    <string name="password">Password</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="login_to_the_system">Login to the system</string>
+    <string name="no_account">You don\'t have an account?</string>
+    <string name="register_here">Register here!</string>
+    <string name="forgot_your_password">Forgot your password?</string>
+    <string name="registering_as">Registering as:</string>
+    <string name="user">User</string>
+    <string name="trainer">Trainer</string>
+    <string name="register">Register</string>
+    <string name="name">Name</string>
+    <string name="gender">Gender:</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="surname">Surname</string>
+    <string name="date_of_birth">Date of birth</string>
+    <string name="address">Address</string>
+    <string name="e_mail">E-mail</string>
+    <string name="cv">CV:</string>
+    <string name="degree">Degree:</string>
+    <string name="registrationFailed">Registration failed.</string>
+    <string name="enterAllFields">Please enter all fields.</string>
+    <string name="regSuccesful">Registration successful.</string>
+    <string name="regSucMessage">Registration was successful.</string>
+    <string name="emailTaken">Email already taken.</string>
+    <string name="regFailedServer">Something went wrong, please try again.</string>
+    <string name="passwordsDoNotMatch">Passwords do not match!</string>
+    <string name="loginFailed">Login failed.</string>
+    <string name="wrongUsernameOrPwd">Wrong username or password.</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="scheduleString">RASPORED</string>
+    <string name="myUsersString">Moji korisnici</string>
+    <string name="createScheduleString">Napravi raspored</string>
+    <string name="profileString">Profil</string>
+    <string name="settingsString">Postavke</string>
+    <string name="createTrainingString">Kreiraj trening</string>
+    <string name="createExerciseString">Kreiraj vježbu</string>
+    <string name="createSchedulString">Kreiraj raspored</string>
+    <string name="scheduleStringLowerCase">Raspored</string>
+    <string name="findTrainerString">Pronađi trenera</string>
+    <string name="myRequest">Moji zahtjevi za suradnju</string>
+    <string name="title_activity_create_training">CreateTrainingActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

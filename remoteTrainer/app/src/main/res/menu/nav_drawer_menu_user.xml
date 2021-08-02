@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/miTrainerSearch"
+        android:title="@string/findTrainerString"></item>
+
+    <item
+        android:id="@+id/miISchedule"
+        android:title="@string/scheduleStringLowerCase"></item>
+
+    <item
+        android:id="@+id/miProfile"
+        android:title="@string/profileString"></item>
+
+    <item
+        android:id="@+id/miSettings"
+        android:title="@string/settingsString"></item>
+
+</menu>

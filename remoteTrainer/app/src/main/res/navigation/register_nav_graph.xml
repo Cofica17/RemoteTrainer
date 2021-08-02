@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/register_nav_graph"
+    app:startDestination="@id/userRegistrationFragment">
+
+    <fragment
+        android:id="@+id/userRegistrationFragment"
+        android:name="zavrsni.besednik.com.remotetrainer.register.UserRegistrationFragment"
+        android:label="user_registration_layout"
+        tools:layout="@layout/user_registration_layout" >
+        <action
+            android:id="@+id/action_userRegistrationFragment_to_trainerRegistrationFragment"
+            app:destination="@id/trainerRegistrationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/trainerRegistrationFragment"
+        android:name="zavrsni.besednik.com.remotetrainer.register.TrainerRegistrationFragment"
+        android:label="trainer_registration_layout"
+        tools:layout="@layout/trainer_registration_layout" >
+        <action
+            android:id="@+id/action_trainerRegistrationFragment_to_userRegistrationFragment"
+            app:destination="@id/userRegistrationFragment" />
+    </fragment>
+</navigation>

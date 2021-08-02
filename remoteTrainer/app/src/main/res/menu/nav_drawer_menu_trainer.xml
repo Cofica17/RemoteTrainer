@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/miMyUsers"
+        android:title="@string/myUsersString"></item>
+
+    <item
+        android:id="@+id/miUserRequests"
+        android:title="@string/myRequest"></item>
+
+    <item
+        android:id="@+id/miMyTrainings"
+        android:title="Moji treninzi"></item>
+
+    <item
+        android:id="@+id/miMyExercises"
+        android:title="Moje vježbe"></item>
+
+    <item
+        android:id="@+id/miCreateSchedule"
+        android:title="@string/createSchedulString"></item>
+
+    <item
+        android:id="@+id/miCreateTraining"
+        android:title="@string/createTrainingString"></item>
+
+    <item
+        android:id="@+id/miCreateExercise"
+        android:title="@string/createExerciseString"></item>
+
+    <item
+        android:id="@+id/miTrainerProfile"
+        android:title="@string/profileString"></item>
+
+    <item
+        android:id="@+id/miTrainerSettings"
+        android:title="@string/settingsString"></item>
+
+</menu>

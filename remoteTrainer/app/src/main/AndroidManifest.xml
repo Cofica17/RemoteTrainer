@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="zavrsni.besednik.com.remotetrainer">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".activity.ChooseExerciseActivity"></activity>
+        <activity android:name=".activity.MyUsersRequestsActivity" />
+        <activity android:name=".activity.MyExercisesActivity" />
+        <activity android:name=".activity.MyTrainingsActivity" />
+        <activity android:name=".activity.CreateTrainingActivity" />
+        <activity android:name=".activity.CreateExerciseActivity" />
+        <activity android:name=".activity.CreateScheduleActivity" />
+        <activity android:name=".activity.MyUsersActivity" />
+        <activity android:name=".activity.TrainerProfileActivity" />
+        <activity android:name=".activity.TrainerSearchActivity" />
+        <activity android:name=".activity.BaseActivity" />
+        <activity android:name=".activity.ExercisePreviewActivity" />
+        <activity android:name=".activity.TrainingPreviewActivity" />
+        <activity android:name=".activity.LandingUserPage" />
+        <activity
+            android:name=".activity.RegisterActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

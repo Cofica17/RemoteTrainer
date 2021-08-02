@@ -1,0 +1,6 @@
+namespace RemoteTrainerAPI.Areas.HelpPage.ModelDescriptions
+{
+    public class SimpleTypeModelDescription : ModelDescription
+    {
+    }
+}
